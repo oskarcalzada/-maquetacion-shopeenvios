@@ -1,0 +1,669 @@
+.divcenter {
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+}
+
+header .divcenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.landing-logo {
+    width: 130px;
+    padding: 10px;
+}
+
+.landing-container {
+    background: #F2F1F6;
+}
+
+header {
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+img.landing-image {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-out;
+}
+
+img.landing-image:hover {
+    transform: scale(1.02);
+}
+
+.landing-main {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    max-width: 1400px;
+    margin: auto;
+    background: transparent;
+}
+
+
+.landing-plugins {
+    display: flex;
+    max-width: 100%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.landing-plugin {
+    max-width: 280px;
+    background: #fff;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.landing-plugin:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.landing-plugin img {
+    max-width: 100%;
+}
+
+section#section1 h2 {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+
+section#section1 p {
+    text-align: center;
+    font-size: 17px;
+    max-width: 550px;
+    margin: auto;
+    margin-bottom: 40px;
+}   
+
+.highlighted_text {
+    background: #DA181C;
+    color: #f2f1f6;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.title_highlighted {
+    display: flex;
+    font-size: 44px;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.landing-steps {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.landing-step {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.landing-step:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.landing-step:hover .landing-step-icon {
+    color: #DA181C;
+    transform: scale(1.1);
+}
+
+svg.landing-step-icon {
+    width: 140px;
+    height: 60px;
+    transition: all 0.3s ease;
+}
+
+.landing-step-number {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.landing-step-text {
+    font-size: 16px;
+}
+
+section#section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.landing-flex {
+    display: flex;
+    gap: 50px;
+}
+
+.landing-flex-text {
+    flex: 1 1 0;
+}
+
+.landing-flex-image {
+    flex: 2 1 0;
+}
+
+video.about-us-video {
+    max-width: 100%;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+video.about-us-video:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+
+.landing-flex-text h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.landing-flex-text p {
+    font-size: 17px;
+}
+
+
+.section5-text {
+    background: #DA181C;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    margin: auto;
+    max-width: calc(100% - 40px);
+}
+
+.section5-text h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.partner img {
+    max-width: 100%;
+}
+
+.partners_carrousel {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+section#section7 h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+p.cta_text {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+
+/* Parallax effects */
+.parallax-container {
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  background: transparent;
+  /* Remove any fixed dimensions to let content define size */
+  display: inline-block;
+  width: 100%;
+}
+
+.parallax-container img,
+.parallax-container video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  /* Add padding to prevent content going out of bounds during parallax */
+  transform: scale(1.1);
+  margin: -5% 0;
+}
+
+/* Ensure no white backgrounds show through */
+.landing-main {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  max-width: 1400px;
+  margin: auto;
+  background: transparent;
+}
+
+/* Video containers */
+.landing-flex-image.parallax-container {
+  background: transparent;
+}
+
+video.about-us-video.parallax-element {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  /* Scale slightly larger to prevent white space during parallax */
+  transform: scale(1.05);
+  margin: -2.5% 0;
+}
+
+/* Enhanced image styles for parallax */
+img.landing-image {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease-out;
+  display: block;
+}
+
+img.landing-image.parallax-element {
+  /* Scale slightly larger to prevent white space during parallax */
+  transform: scale(1.05);
+  margin: -2.5% 0;
+}
+
+img.landing-image:hover {
+  transform: scale(1.01);
+}
+
+/* Section containers for parallax */
+.parallax-section {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Constrain parallax movement */
+.parallax-container .parallax-element {
+  max-width: 100%;
+  transform-origin: center center;
+}
+
+/* Smooth animations with constraints */
+@media (prefers-reduced-motion: no-preference) {
+  .parallax-element {
+    transition: transform 0.1s ease-out;
+  }
+}
+
+/* Disable parallax on mobile for performance */
+@media (max-width: 768px) {
+  .parallax-element {
+    transform: none !important;
+  }
+  
+  .parallax-container {
+    overflow: visible;
+  }
+}
+
+/* Alternative parallax approach - more refined */
+.parallax-container-refined {
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  height: auto;
+  background: transparent;
+}
+
+.parallax-container-refined img,
+.parallax-container-refined video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  /* Use transform instead of scaling to prevent white space */
+  transition: transform 0.1s ease-out;
+}
+
+/* Refined parallax that doesn't show white space */
+.parallax-refined {
+  transform: translateY(0);
+  will-change: transform;
+}
+
+/* Override for existing containers to use refined approach */
+.landing-flex-image.parallax-container,
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  /* Ensure container height matches content */
+  height: fit-content;
+  min-height: 200px;
+}
+
+/* Ensure videos and images fill their containers properly */
+.parallax-container video,
+.parallax-container img {
+  position: relative;
+  z-index: 1;
+  min-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Enhanced visual effects */
+.landing-plugin {
+  max-width: 280px;
+  background: #fff;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.landing-plugin:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.landing-step {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.landing-step:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.landing-step:hover .landing-step-icon {
+  color: #DA181C;
+  transform: scale(1.1);
+}
+
+svg.landing-step-icon {
+  width: 140px;
+  height: 60px;
+  transition: all 0.3s ease;
+}
+
+/* Video hover effects */
+video.about-us-video {
+  max-width: 100%;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+video.about-us-video:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Button hover enhancements */
+.landing-button {
+  transition: all 0.3s ease !important;
+}
+
+.landing-button:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(218, 24, 28, 0.3) !important;
+}
+
+/* Section animations */
+.landing-section {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.landing-section:nth-child(1) { animation-delay: 0.1s; }
+.landing-section:nth-child(2) { animation-delay: 0.2s; }
+.landing-section:nth-child(3) { animation-delay: 0.3s; }
+.landing-section:nth-child(4) { animation-delay: 0.4s; }
+.landing-section:nth-child(5) { animation-delay: 0.5s; }
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animation classes for viewport detection */
+.animate-in {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  transition: all 0.8s ease !important;
+}
+
+/* Initial state for sections */
+.landing-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+/* Stagger animation delays */
+.landing-section:nth-child(odd) {
+  animation-delay: 0.1s;
+}
+
+.landing-section:nth-child(even) {
+  animation-delay: 0.2s;
+}
+
+/* Enhanced parallax containers */
+.parallax-container {
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.parallax-container:hover {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+/* Performance optimizations */
+.parallax-element {
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.1s linear;
+}
+
+/* Disable animations on mobile for better performance */
+@media (max-width: 768px) {
+  .parallax-element {
+    transform: none !important;
+  }
+  
+  .parallax-container:hover {
+    transform: none;
+  }
+  
+  .landing-step:hover {
+    transform: translateY(-3px);
+  }
+  
+  .landing-plugin:hover {
+    transform: translateY(-2px);
+  }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .parallax-element,
+  .landing-step,
+  .landing-plugin,
+  .parallax-container,
+  video.about-us-video,
+  .landing-button {
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* Advanced animation classes */
+.animated-section {
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.animate-out {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animate-out-left {
+  opacity: 0;
+  transform: translateX(-50px);
+}
+
+.animate-in-left {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.animate-out-right {
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+.animate-in-right {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.animate-zoom-out {
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.animate-zoom-in {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Floating animation for elements */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+.floating:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.floating:nth-child(3) {
+  animation-delay: 1s;
+}
+
+/* Gradient overlay for images */
+.parallax-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(218, 24, 28, 0.1), rgba(0, 0, 0, 0.05));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.parallax-container:hover::before {
+  opacity: 1;
+}
+
+/* Enhanced button styles */
+.landing-button {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.landing-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+  z-index: -1;
+}
+
+.landing-button:hover::before {
+  left: 100%;
+}
+
+/* Improved scroll indicators */
+.scroll-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #DA181C, #ff4444);
+  transform-origin: left;
+  z-index: 1000;
+}
